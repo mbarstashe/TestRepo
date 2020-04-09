@@ -10,6 +10,10 @@ public with sharing class SlackOpportunityPublisher {
          System.debug(LoggingLevel.DEBUG, var);
      }
 
+     public void oneMoreFix(){
+         String var = 'asdfasdf';
+     }
+
     
     public class Oppty {
         @InvocableVariable(label='Opportunity Name')
