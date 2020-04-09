@@ -4,6 +4,13 @@ public with sharing class SlackOpportunityPublisher {
      //update 1
      //dsfasdfsadf
      //sdfasdfasdfsdf
+
+     public void theFix(){
+         String var = 'I am the FIX!';
+         System.debug(LoggingLevel.DEBUG, var);
+     }
+
+    
     public class Oppty {
         @InvocableVariable(label='Opportunity Name')
         public String opptyName;
